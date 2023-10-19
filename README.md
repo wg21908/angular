@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
 
+## Initial Setup
+
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`  
+`source ~/.bashrc`  
+`nvm install 16.14.0`  
+`node -v`  
+`npm install -g typescript@4.9.3`  
+`npm install -g @angular/cli`  
+`ng new my-app --style=css --routing=true`  
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
